@@ -1,0 +1,337 @@
+/*
+=========================================
+Container Breakpoint
+=========================================
+*/
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1610px;
+  }
+}
+
+/*
+=========================================
+Responsive Breakpoint
+=========================================
+*/
+@media (max-width: 1599px) {
+  /* 
+	=====================================
+	Variables
+	=====================================
+  */
+  :root {
+    --size-md: 2rem;
+  }
+  /* 
+	=================================
+	 Reuseble Components Responsive
+	=================================
+	*/
+  .paragraph {
+    line-height: 3.2rem;
+  }
+}
+
+@media (max-width: 1399px) {
+  /* 
+	=====================================
+	Variables
+	=====================================
+  */
+  :root {
+    --size-lg: 4rem;
+    --size-sm: 1.8rem;
+  }
+  /* 
+	=====================================
+	Variables
+	=====================================
+	*/
+
+  /* 
+	=================================
+	 Reuseble Components Responsive
+	=================================
+	*/
+  .title {
+    line-height: 4.8rem;
+  }
+
+  /* 
+	===============================
+	 Section Responsive
+	===============================
+	*/
+
+  /* 
+	===============================
+	Back to top Btn
+	===============================
+	*/
+  #scroll-up-btn {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  #scroll-up-btn img {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  /* 
+	=====================================
+	Variables
+	=====================================
+  */
+  :root {
+    --size-lg: 3.2rem;
+    --size-md: 1.6rem;
+    --size-sm: 1.8rem;
+  }
+  /* 
+	=====================================
+	Variables
+	=====================================
+	*/
+
+  /* 
+	=================================
+	 Reuseble Components Responsive
+	=================================
+	*/
+  .title {
+    line-height: 4rem;
+  }
+  .paragraph {
+    line-height: 2.8rem;
+  }
+
+  .responsive-img img {
+    width: 100%;
+    max-width: 50rem;
+  }
+  /* 
+	===============================
+	Hero Section Responsive
+	===============================
+	*/
+  .hero-text h1 {
+    font-size: 4.2rem;
+    line-height: 5rem;
+  }
+  /* 
+	===============================
+	Footer Section Responsive
+	===============================
+	*/
+  footer {
+    padding-bottom: 5.5rem;
+  }
+
+  .social-link ul li a img {
+    width: 2.5rem;
+  }
+}
+
+@media (max-width: 991px) {
+  /* 
+	===============================
+	Reuseble Components Responsive
+	===============================
+	*/
+  .btn-bg {
+    min-width: 18rem;
+    height: 6rem;
+    line-height: 6rem;
+  }
+  /* 
+	===============================
+	Header Section Responsive
+	===============================
+	*/
+  nav .main-menu ul li:not(:last-child) {
+    margin-right: 4.3rem;
+  }
+
+  .logo img:first-child {
+    max-width: 12rem;
+  }
+
+  .logo img:last-child {
+    max-width: 10rem;
+  }
+
+  nav .logo img:first-child {
+    margin-left: -5.5rem;
+  }
+
+  .logo img:last-child {
+    margin-left: -2rem;
+  }
+
+  /* 
+	=======================================
+	CryptoCorp Roadmap Section Responsive
+	=======================================
+	*/
+  .crypto-corp-roadmap {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 60rem;
+  }
+
+  .crypto-corp-roadmap img {
+    height: 100%;
+  }
+
+  /* 
+	===============================
+	Back to top Btn
+	===============================
+	*/
+  #scroll-up-btn {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  #scroll-up-btn img {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* 
+	===============================
+	Reuseble Components Responsive
+	===============================
+	*/
+  section {
+    padding: 5rem 0;
+  }
+  /* 
+	===============================
+	Header Section Responsive
+	===============================
+	*/
+  nav .main-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 3rem;
+    background-color: var(--primary-color);
+    width: 100%;
+    display: none;
+    z-index: 9999;
+  }
+
+  nav .main-menu ul li a {
+    color: var(--body-color);
+  }
+
+  nav .main-menu ul li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  /* 
+	===============================
+	Hero Section Responsive
+	===============================
+	*/
+  .hero-section {
+    padding-top: 10rem;
+  }
+  .hero-text h1 {
+    font-size: 3.8rem;
+    line-height: 4.6rem;
+  }
+
+  /* 
+	===============================
+	Stay Up Section Responsive
+	===============================
+	*/
+  .stay-up-section {
+    padding-bottom: 10rem;
+  }
+  .stay-up-form-title p {
+    font-size: 2.8rem;
+    line-height: 3.2rem;
+  }
+}
+
+@media (max-width: 575px) {
+  /* 
+	=====================================
+	Variables
+	=====================================
+  */
+  :root {
+    --size-lg: 2.6rem;
+    --size-md: 1.5rem;
+    --size-sm: 1.4rem;
+  }
+  /* 
+	=====================================
+	Variables
+	=====================================
+	*/
+
+  /* 
+	=================================
+	 Reuseble Components Responsive
+	=================================
+	*/
+  .title {
+    line-height: 3.4rem;
+  }
+  .paragraph {
+    line-height: 2.7rem;
+  }
+
+  /* 
+	===============================
+	Header Section Responsive
+	===============================
+	*/
+  nav .main-menu {
+    width: 95%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+
+  /* 
+	===============================
+	Hero Section Responsive
+	===============================
+	*/
+  .hero-text h1 {
+    font-size: 3rem;
+    line-height: 3.8rem;
+  }
+
+  /* 
+	=======================================
+	CryptoCorp Roadmap Section Responsive
+	=======================================
+	*/
+  .crypto-corp-roadmap {
+    height: 50rem;
+  }
+
+  /* 
+	===============================
+	Stay Up Section Responsive
+	===============================
+	*/
+  .stay-up-form-field-box {
+    background-color: transparent;
+  }
+}
